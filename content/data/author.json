@@ -1,10 +1,10 @@
 {
   "pk": "author",
-  "title": "Gatsby + Tina Starter Blog",
-  "author": "Kyle Mathews",
-  "description": "A starter blog demonstrating what Gatsby & Tina can do.",
-  "siteUrl": "https://gatsby-starter-tinacms-demo.netlify.com/",
+  "title": "Porky Paints",
+  "author": "Jeffry Wainwright",
+  "description": "The art work and alter ego Porky, an artist and software engineer.",
+  "siteUrl": "https://porkypaints.com/",
   "social": {
-    "twitter": "kylemathews"
+    "twitter": "yowainwright"
   }
 }
