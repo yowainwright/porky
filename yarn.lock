@@ -6056,16 +6056,12 @@ gatsby-tinacms-git@^0.2.14:
     simple-git "1.124.0"
     tinacms "^0.11.2"
 
-gatsby-tinacms-json@^0.8.0:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/gatsby-tinacms-json/-/gatsby-tinacms-json-0.8.3.tgz#b0025260fe6294e83b0739fa62fcab1b76d2ed65"
-  integrity sha512-tetmHv6Clw0M5SW//0TxVYOMXQ6ljXXEiBU4lGvIqTdVxwCBLw4M38npK1hCSQj1Mo9BnpJidYf7+oWv+Ycx+g==
+gatsby-tinacms-json@^0.8.10:
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/gatsby-tinacms-json/-/gatsby-tinacms-json-0.8.10.tgz#f298d6052b5d7da5cfab16aafb8a9f0fa0d33d89"
+  integrity sha512-ycKrR/ksmE+xtfTaL2+Je1MYYrMRDw6NIuGWtHY9492wnVFQlt5gnHZVFguS4J8dxZO3ol2P8/bI3VuzF1UHhQ==
   dependencies:
-    "@tinacms/core" "^0.6.0"
-    gatsby-plugin-tinacms "^0.1.19"
-    graphql "^14.5.8"
     slash "^3.0.0"
-    tinacms "^0.11.2"
 
 gatsby-tinacms-remark@^0.6.0:
   version "0.6.3"
