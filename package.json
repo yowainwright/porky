@@ -30,6 +30,7 @@
     "gatsby-transformer-json": "^2.2.28",
     "gatsby-transformer-remark": "^2.6.59",
     "gatsby-transformer-sharp": "^2.3.19",
+    "gh-pages": "^2.2.0",
     "moment": "^2.24.0",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
@@ -61,8 +62,11 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "deploy": "npm run pre-deploy && NODE_ENV=production gatsby build && gh-pages -d public --branch master && npm run post-deploy",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "post-deploy": "echo 'Deployed PorkyPaints.com 🚀'",
+    "pre-deploy": "cp CNAME public; cp *.html public; cp README.md public && cp -rf ./content/assets ./public",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
