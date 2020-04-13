@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-tinacms",
+  "name": "porkypaints.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown, made editable with TinaCMS",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Art of Porky 📮",
+  "version": "0.1.1",
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
   "bugs": {
-    "url": "https://github.com/tinacms/gatsby-starter-tinacms/issues"
+    "url": "https://github.com/yowainwright/porky/issues"
   },
   "dependencies": {
     "gatsby": "^2.20.17",
@@ -57,7 +57,7 @@
     "lint-staged": "^10.1.3",
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/tinacms/gatsby-starter-tinacms#readme",
+  "homepage": "https://github.com/yowainwright/porky#readme",
   "keywords": [
     "gatsby"
   ],
@@ -65,7 +65,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinacms/gatsby-starter-tinacms.git"
+    "url": "git+https://github.com/yowainwright/porky.git"
   },
   "scripts": {
     "build": "gatsby build",
