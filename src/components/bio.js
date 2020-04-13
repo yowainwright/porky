@@ -7,14 +7,15 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+// import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
 /**
  * STEP 1: Import the json hooks
  */
-import { useLocalJsonForm, useGlobalJsonForm } from "gatsby-tinacms-json"
+// import { useLocalJsonForm, useGlobalJsonForm } from "gatsby-tinacms-json"
+import { useLocalJsonForm } from "gatsby-tinacms-json"
 
 const Bio = () => {
   /**
@@ -55,12 +56,15 @@ const Bio = () => {
   const [{ author, social }] = useLocalJsonForm(data.author, {
     label: "Author bio",
     fields: [
-      { name: 'rawJson.author' , label: "Author Name", component: "text" },
-      
-      { name: 'rawJson.social', label: 'Social Info', component: 'group', fields: [
-        {label: "@Twitter", name: "twitter", component: "text"}
-      ]}
-    ]
+      { name: "rawJson.author", label: "Author Name", component: "text" },
+
+      {
+        name: "rawJson.social",
+        label: "Social Info",
+        component: "group",
+        fields: [{ label: "@Twitter", name: "twitter", component: "text" }],
+      },
+    ],
   })
   // const [{ name, social }] = useGlobalJsonForm(data.author, {
   //   label: "Author",
@@ -74,7 +78,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-     {/**<Image
+      {/**<Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
@@ -88,11 +92,10 @@ const Bio = () => {
         }}
       /> */}
       <p>
-        Written by <strong>{author}</strong> who makes art, lives and works in Los Angeles.
+        Written by <strong>{author}</strong> who makes art, lives and works in
+        Los Angeles.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          Twitter
-        </a>
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
       </p>
     </div>
   )
