@@ -12610,12 +12610,12 @@ react-tinacms-editor@^0.4.0:
     prosemirror-view "^1.11.3"
     react-dismissible "^1.1.5"
 
-react-tinacms@^0.9.15:
-  version "0.9.17"
-  resolved "https://registry.yarnpkg.com/react-tinacms/-/react-tinacms-0.9.17.tgz#1c4c989afe66a2120865ab6a7be924d44c3d7ac5"
-  integrity sha512-4NKaPA2ZSDBWqsF39fIi5nZ/4i5daGC1R+rrPfeeBrlRTSdT595iAHIqdmWz7AB2Yi/JcaBrvi5ayid9iJ0dhg==
+react-tinacms@^0.9.19:
+  version "0.9.19"
+  resolved "https://registry.yarnpkg.com/react-tinacms/-/react-tinacms-0.9.19.tgz#800e555a61f4aa63ba59d8e76e77b44a0fc1ec85"
+  integrity sha512-O8EEzqX7vUHa/H2ZenwgF/uLRdW/8hzcaYcmwxuuyIkE7FOI/Yjx9OY0xE9QO4Nnjwsc8NzLvtgCkT7aR+pQlg==
   dependencies:
-    tinacms "^0.18.2"
+    tinacms "^0.18.4"
 
 react-typography@^0.16.19:
   version "0.16.19"
@@ -14767,7 +14767,7 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinacms@^0.18.2, tinacms@^0.18.4:
+tinacms@^0.18.4:
   version "0.18.4"
   resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.18.4.tgz#b2e345f3af3f0378201786667387ad411ffa28dd"
   integrity sha512-aZrl4ObiMl1EEPmBsgrN6ghV9hjek6siP+Dww8ZhasTNnDrpetBkVLItpIuWI+J8/nLxesKgQd82B521k0UFnw==
