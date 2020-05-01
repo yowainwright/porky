@@ -28,7 +28,7 @@
     "gatsby-tinacms-json": "^0.8.18",
     "gatsby-tinacms-remark": "^0.7.13",
     "gatsby-transformer-json": "^2.3.3",
-    "gatsby-transformer-remark": "^2.7.1",
+    "gatsby-transformer-remark": "^2.8.4",
     "gatsby-transformer-sharp": "^2.4.7",
     "gh-pages": "^2.2.0",
     "markdownlint": "^0.20.2",
