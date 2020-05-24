@@ -29,7 +29,7 @@
     "gatsby-tinacms-remark": "^0.7.19",
     "gatsby-transformer-json": "^2.4.3",
     "gatsby-transformer-remark": "^2.8.5",
-    "gatsby-transformer-sharp": "^2.5.2",
+    "gatsby-transformer-sharp": "^2.5.3",
     "gh-pages": "^2.2.0",
     "markdownlint": "^0.20.2",
     "moment": "^2.24.0",
