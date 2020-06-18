@@ -23,7 +23,7 @@
     "gatsby-remark-prismjs": "^3.5.3",
      "gatsby-remark-responsive-iframe": "^2.4.2",
     "gatsby-remark-smartypants": "^2.2.4",
-    "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-source-filesystem": "^2.3.11",
     "gatsby-tinacms-git": "^0.5.1",
     "gatsby-tinacms-json": "^0.8.20",
     "gatsby-tinacms-remark": "^0.8.0",
