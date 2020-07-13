@@ -22,7 +22,7 @@
     "gatsby-remark-images": "^3.3.17",
     "gatsby-remark-prismjs": "^3.5.9",
      "gatsby-remark-responsive-iframe": "^2.4.11",
-    "gatsby-remark-smartypants": "^2.2.4",
+    "gatsby-remark-smartypants": "^2.3.10",
     "gatsby-source-filesystem": "^2.3.11",
     "gatsby-tinacms-git": "^0.5.1",
     "gatsby-tinacms-json": "^0.8.28",
