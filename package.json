@@ -31,7 +31,7 @@
     "gatsby-transformer-remark": "^2.8.23",
     "gatsby-transformer-sharp": "^2.5.10",
     "gh-pages": "^3.0.0",
-    "markdownlint": "^0.20.3",
+    "markdownlint": "^0.20.4",
     "moment": "^2.26.0",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
