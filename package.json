@@ -35,7 +35,7 @@
     "moment": "^2.26.0",
     "prismjs": "^1.21.0",
     "prop-types": "^15.7.2",
-    "react": "^16.10.2",
+    "react": "^16.14.0",
     "react-dom": "^16.10.2",
     "react-helmet": "^6.1.0",
     "react-tinacms": "^0.9.27",
