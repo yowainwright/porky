@@ -1,24 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Porky Paints`,
-    author: `Jeff Wainwright`,
-    description: `The art work and alter ego Porky, an artist and software engineer.`,
-    siteUrl: `https://porkypaints.com`,
+    title: `Gatsby Starter Blog`,
+    author: {
+      name: `Kyle Mathews`,
+      summary: `who lives and works in San Francisco building useful things.`,
+    },
+    description: `A starter blog demonstrating what Gatsby can do.`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `yowainwright`,
+      twitter: `kylemathews`,
     },
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-tinacms",
-      options: {
-        plugins: ["gatsby-tinacms-git", "gatsby-tinacms-remark", "gatsby-tinacms-json",],
-        sidebar: {
-          hidden: process.env.NODE_ENV === "production",
-          position: "displace"
-        },
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,21 +27,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/data`,
-        name: `data`,
-      },
-    },
-    `gatsby-transformer-json`,
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 630,
             },
           },
           {
@@ -84,13 +69,9 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
 }
